@@ -1,0 +1,1961 @@
+<karten>
+	<karte name="Dojo">
+		<actions>
+			<action energy="1" die="1">
+				<results>
+					<result die="6" />
+				</results>
+			</action>
+			<action energy="1" die="2">
+				<results>
+					<result die="5" />
+				</results>
+			</action>
+			<action energy="1" die="3">
+				<results>
+					<result die="4" />
+				</results>
+			</action>
+			<action energy="1" die="4">
+				<results>
+					<result die="3" />
+				</results>
+			</action>
+			<action energy="1" die="5">
+				<results>
+					<result die="2" />
+				</results>
+			</action>
+			<action energy="1" die="6">
+				<results>
+					<result die="1" />
+				</results>
+			</action>
+		</actions>
+	</karte>
+	<karte name="Nuclear Plant">
+		<actions>
+			<action die="6">
+				<results>
+					<result good="1" energy="1" />
+				</results>
+			</action>
+		</actions>
+	</karte>
+	<karte name="Biolab">
+		<actions>
+			<action die="1" energy="1">
+				<results>
+					<result good="1" />
+				</results>
+			</action>
+		</actions>
+	</karte>
+	<karte name="Power Plant">
+		<actions>
+			<action die="1">
+				<results>
+					<result energy="1" />
+				</results>
+			</action>
+			<action die="2">
+				<results>
+					<result energy="2" />
+				</results>
+			</action>
+			<action die="3">
+				<results>
+					<result energy="3" />
+				</results>
+			</action>
+			<action die="4">
+				<results>
+					<result energy="4" />
+				</results>
+			</action>
+			<action die="5">
+				<results>
+					<result energy="5" />
+				</results>
+			</action>
+			<action die="6">
+				<results>
+					<result energy="6" />
+				</results>
+			</action>
+		</actions>
+	</karte>
+	<karte name="Golem">
+		<actions>
+			<action energy="1">
+				<results>
+					<result die="1" />
+				</results>
+			</action>
+			<action energy="2">
+				<results>
+					<result die="2" />
+				</results>
+			</action>
+			<action energy="3">
+				<results>
+					<result die="3" />
+				</results>
+			</action>
+			<action energy="4">
+				<results>
+					<result energy="4" />
+				</results>
+			</action>
+			<action energy="5">
+				<results>
+					<result energy="5" />
+				</results>
+			</action>
+			<action energy="6">
+				<results>
+					<result energy="6" />
+				</results>
+			</action>
+		</actions>
+	</karte>
+	<karte name="Assembly Line">
+		<actions>
+			<action die="1,2,3">
+				<results>
+					<result good="2" />
+				</results>
+			</action>
+			<action die="2,3,4">
+				<results>
+					<result good="2" />
+				</results>
+			</action>
+			<action die="3,4,5">
+				<results>
+					<result good="2" />
+				</results>
+			</action>
+			<action die="4,5,6">
+				<results>
+					<result good="2" />
+				</results>
+			</action>
+		</actions>
+	</karte>
+	<karte name="Generate">
+		<actions>
+			<action die="1">
+				<results>
+					<result energy="1" factories="Generate1" />
+				</results>
+			</action>
+			<action die="2">
+				<results>
+					<result energy="2" factories="Generate2" />
+				</results>
+			</action>
+			<action die="3">
+				<results>
+					<result energy="3" factories="Generate3" />
+				</results>
+			</action>
+		</actions>
+	</karte>
+	<karte name="Generate1">
+		<actions>
+			<action die="1">
+				<results>
+					<result energy="2" factories="Generate11" />
+				</results>
+			</action>
+			<action die="2">
+				<results>
+					<result energy="2" factories="Generate12" />
+				</results>
+			</action>
+			<action die="3">
+				<results>
+					<result energy="3" factories="Generate13" />
+				</results>
+			</action>
+		</actions>
+	</karte>
+	<karte name="Generate2">
+		<actions>
+			<action die="1">
+				<results>
+					<result energy="1" factories="Generate12" />
+				</results>
+			</action>
+			<action die="2">
+				<results>
+					<result energy="3" factories="Generate22" />
+				</results>
+			</action>
+			<action die="3">
+				<results>
+					<result energy="3" factories="Generate23" />
+				</results>
+			</action>
+		</actions>
+	</karte>
+	<karte name="Generate3">
+		<actions>
+			<action die="1">
+				<results>
+					<result energy="1" factories="Generate13" />
+				</results>
+			</action>
+			<action die="2">
+				<results>
+					<result energy="2" factories="Generate23" />
+				</results>
+			</action>
+			<action die="3">
+				<results>
+					<result energy="4" factories="Generate33" />
+				</results>
+			</action>
+		</actions>
+	</karte>	
+	<karte name="Generate11">
+		<actions>
+			<action die="1">
+				<results>
+					<result energy="2" />
+				</results>
+			</action>
+			<action die="2">
+				<results>
+					<result energy="2" />
+				</results>
+			</action>
+			<action die="3">
+				<results>
+					<result energy="3" />
+				</results>
+			</action>
+		</actions>
+	</karte>
+	<karte name="Generate12">
+		<actions>
+			<action die="1">
+				<results>
+					<result energy="2" />
+				</results>
+			</action>
+			<action die="2">
+				<results>
+					<result energy="3" />
+				</results>
+			</action>
+			<action die="3">
+				<results>
+					<result energy="3" />
+				</results>
+			</action>
+		</actions>
+	</karte>
+	<karte name="Generate13">
+		<actions>
+			<action die="1">
+				<results>
+					<result energy="2" />
+				</results>
+			</action>
+			<action die="2">
+				<results>
+					<result energy="2" />
+				</results>
+			</action>
+			<action die="3">
+				<results>
+					<result energy="4" />
+				</results>
+			</action>
+		</actions>
+	</karte>
+	<karte name="Generate22">
+		<actions>
+			<action die="1">
+				<results>
+					<result energy="1" />
+				</results>
+			</action>
+			<action die="2">
+				<results>
+					<result energy="3" />
+				</results>
+			</action>
+			<action die="3">
+				<results>
+					<result energy="3" />
+				</results>
+			</action>
+		</actions>
+	</karte>	
+	<karte name="Generate23">
+		<actions>
+			<action die="1">
+				<results>
+					<result energy="1" />
+				</results>
+			</action>
+			<action die="2">
+				<results>
+					<result energy="3" />
+				</results>
+			</action>
+			<action die="3">
+				<results>
+					<result energy="4" />
+				</results>
+			</action>
+		</actions>
+	</karte>
+	<karte name="Generate33">
+		<actions>
+			<action die="1">
+				<results>
+					<result energy="1" />
+				</results>
+			</action>
+			<action die="2">
+				<results>
+					<result energy="2" />
+				</results>
+			</action>
+			<action die="3">
+				<results>
+					<result energy="4" />
+				</results>
+			</action>
+		</actions>
+	</karte>
+
+	<karte name="Mine">
+		<actions>
+			<action die="4">
+				<results>
+					<result metal="1" factories="Mine4" />
+				</results>
+			</action>
+			<action die="5">
+				<results>
+					<result metal="1" factories="Mine5" />
+				</results>
+			</action>
+			<action die="6">
+				<results>
+					<result metal="1" factories="Mine6" />
+				</results>
+			</action>
+		</actions>
+	</karte>
+	<karte name="Mine4">
+		<actions>
+			<action die="4">
+				<results>
+					<result metal="2" factories="Mine44" />
+				</results>
+			</action>
+			<action die="5">
+				<results>
+					<result metal="1" factories="Mine45" />
+				</results>
+			</action>
+			<action die="6">
+				<results>
+					<result metal="1" factories="Mine46" />
+				</results>
+			</action>
+		</actions>
+	</karte>
+	<karte name="Mine5">
+		<actions>
+			<action die="4">
+				<results>
+					<result metal="1" factories="Mine45" />
+				</results>
+			</action>
+			<action die="5">
+				<results>
+					<result metal="2" factories="Mine55" />
+				</results>
+			</action>
+			<action die="6">
+				<results>
+					<result metal="1" factories="Mine56" />
+				</results>
+			</action>
+		</actions>
+	</karte>
+	<karte name="Mine6">
+		<actions>
+			<action die="4">
+				<results>
+					<result metal="1" factories="Mine46" />
+				</results>
+			</action>
+			<action die="5">
+				<results>
+					<result metal="1" factories="Mine56" />
+				</results>
+			</action>
+			<action die="6">
+				<results>
+					<result metal="2" factories="Mine66" />
+				</results>
+			</action>
+		</actions>
+	</karte>	
+	<karte name="Mine44">
+		<actions>
+			<action die="4">
+				<results>
+					<result metal="2" />
+				</results>
+			</action>
+			<action die="5">
+				<results>
+					<result metal="1" />
+				</results>
+			</action>
+			<action die="6">
+				<results>
+					<result metal="1" />
+				</results>
+			</action>
+		</actions>
+	</karte>
+	<karte name="Mine45">
+		<actions>
+			<action die="4">
+				<results>
+					<result metal="2" />
+				</results>
+			</action>
+			<action die="5">
+				<results>
+					<result metal="2" />
+				</results>
+			</action>
+			<action die="6">
+				<results>
+					<result metal="1" />
+				</results>
+			</action>
+		</actions>
+	</karte>
+	<karte name="Mine46">
+		<actions>
+			<action die="4">
+				<results>
+					<result metal="2" />
+				</results>
+			</action>
+			<action die="5">
+				<results>
+					<result metal="1" />
+				</results>
+			</action>
+			<action die="6">
+				<results>
+					<result metal="2" />
+				</results>
+			</action>
+		</actions>
+	</karte>
+	<karte name="Mine55">
+		<actions>
+			<action die="4">
+				<results>
+					<result metal="1" />
+				</results>
+			</action>
+			<action die="5">
+				<results>
+					<result metal="2" />
+				</results>
+			</action>
+			<action die="6">
+				<results>
+					<result metal="1" />
+				</results>
+			</action>
+		</actions>
+	</karte>	
+	<karte name="Mine56">
+		<actions>
+			<action die="4">
+				<results>
+					<result metal="1" />
+				</results>
+			</action>
+			<action die="5">
+				<results>
+					<result metal="2" />
+				</results>
+			</action>
+			<action die="6">
+				<results>
+					<result metal="2" />
+				</results>
+			</action>
+		</actions>
+	</karte>
+	<karte name="Mine66">
+		<actions>
+			<action die="4">
+				<results>
+					<result metal="1" />
+				</results>
+			</action>
+			<action die="5">
+				<results>
+					<result metal="1" />
+				</results>
+			</action>
+			<action die="6">
+				<results>
+					<result metal="2" />
+				</results>
+			</action>
+		</actions>
+	</karte>
+
+	
+	<karte name="Research">
+		<actions>
+			<action die="1">
+				<results>
+					<result blueprint="1" factories="Research1" />
+				</results>
+			</action>
+			<action die="2">
+				<results>
+					<result blueprint="1" factories="Research2" />
+				</results>
+			</action>
+			<action die="3">
+				<results>
+					<result blueprint="1" factories="Research3" />
+				</results>
+			</action>
+			<action die="4">
+				<results>
+					<result blueprint="1" factories="Research4" />
+				</results>
+			</action>
+			<action die="5">
+				<results>
+					<result blueprint="1" factories="Research5" />
+				</results>
+			</action>
+			<action die="6">
+				<results>
+					<result blueprint="1" factories="Research6" />
+				</results>
+			</action>
+			<action die="0">
+				<results>
+					<result blueprint="1" />
+				</results>
+			</action>
+		</actions>
+	</karte>
+	<karte name="Research1">
+		<actions>
+			<action die="1">
+				<results>
+					<result blueprint="2" factories="Research11" />
+				</results>
+			</action>
+			<action die="2">
+				<results>
+					<result blueprint="1" factories="Research12" />
+				</results>
+			</action>
+			<action die="3">
+				<results>
+					<result blueprint="1" factories="Research13" />
+				</results>
+			</action>
+			<action die="4">
+				<results>
+					<result blueprint="1" factories="Research14" />
+				</results>
+			</action>
+			<action die="5">
+				<results>
+					<result blueprint="1" factories="Research15" />
+				</results>
+			</action>
+			<action die="6">
+				<results>
+					<result blueprint="1" factories="Research16" />
+				</results>
+			</action>
+		</actions>
+	</karte>
+	<karte name="Research2">
+		<actions>
+			<action die="1">
+				<results>
+					<result blueprint="1" factories="Research12" />
+				</results>
+			</action>
+			<action die="2">
+				<results>
+					<result blueprint="2" factories="Research22" />
+				</results>
+			</action>
+			<action die="3">
+				<results>
+					<result blueprint="1" factories="Research23" />
+				</results>
+			</action>
+			<action die="4">
+				<results>
+					<result blueprint="1" factories="Research24" />
+				</results>
+			</action>
+			<action die="5">
+				<results>
+					<result blueprint="1" factories="Research25" />
+				</results>
+			</action>
+			<action die="6">
+				<results>
+					<result blueprint="1" factories="Research26" />
+				</results>
+			</action>
+		</actions>
+	</karte>
+	<karte name="Research3">
+		<actions>
+			<action die="1">
+				<results>
+					<result blueprint="1" factories="Research13" />
+				</results>
+			</action>
+			<action die="2">
+				<results>
+					<result blueprint="1" factories="Research23" />
+				</results>
+			</action>
+			<action die="3">
+				<results>
+					<result blueprint="2" factories="Research33" />
+				</results>
+			</action>
+			<action die="4">
+				<results>
+					<result blueprint="1" factories="Research34" />
+				</results>
+			</action>
+			<action die="5">
+				<results>
+					<result blueprint="1" factories="Research35" />
+				</results>
+			</action>
+			<action die="6">
+				<results>
+					<result blueprint="1" factories="Research36" />
+				</results>
+			</action>
+		</actions>
+	</karte>
+	<karte name="Research4">
+		<actions>
+			<action die="1">
+				<results>
+					<result blueprint="1" factories="Research14" />
+				</results>
+			</action>
+			<action die="2">
+				<results>
+					<result blueprint="1" factories="Research24" />
+				</results>
+			</action>
+			<action die="3">
+				<results>
+					<result blueprint="1" factories="Research34" />
+				</results>
+			</action>
+			<action die="4">
+				<results>
+					<result blueprint="2" factories="Research44" />
+				</results>
+			</action>
+			<action die="5">
+				<results>
+					<result blueprint="1" factories="Research45" />
+				</results>
+			</action>
+			<action die="6">
+				<results>
+					<result blueprint="1" factories="Research46" />
+				</results>
+			</action>
+		</actions>
+	</karte>
+	<karte name="Research5">
+		<actions>
+			<action die="1">
+				<results>
+					<result blueprint="1" factories="Research15" />
+				</results>
+			</action>
+			<action die="2">
+				<results>
+					<result blueprint="1" factories="Research25" />
+				</results>
+			</action>
+			<action die="3">
+				<results>
+					<result blueprint="1" factories="Research35" />
+				</results>
+			</action>
+			<action die="4">
+				<results>
+					<result blueprint="1" factories="Research45" />
+				</results>
+			</action>
+			<action die="5">
+				<results>
+					<result blueprint="2" factories="Research55" />
+				</results>
+			</action>
+			<action die="6">
+				<results>
+					<result blueprint="1" factories="Research56" />
+				</results>
+			</action>
+		</actions>
+	</karte>
+	<karte name="Research6">
+		<actions>
+			<action die="1">
+				<results>
+					<result blueprint="1" factories="Research16" />
+				</results>
+			</action>
+			<action die="2">
+				<results>
+					<result blueprint="1" factories="Research26" />
+				</results>
+			</action>
+			<action die="3">
+				<results>
+					<result blueprint="1" factories="Research36" />
+				</results>
+			</action>
+			<action die="4">
+				<results>
+					<result blueprint="1" factories="Research46" />
+				</results>
+			</action>
+			<action die="5">
+				<results>
+					<result blueprint="1" factories="Research56" />
+				</results>
+			</action>
+			<action die="6">
+				<results>
+					<result blueprint="2" factories="Research66" />
+				</results>
+			</action>
+		</actions>
+	</karte>
+
+	<karte name="Research11">
+		<actions>
+			<action die="1">
+				<results>
+					<result blueprint="2" />
+				</results>
+			</action>
+			<action die="2">
+				<results>
+					<result blueprint="1" />
+				</results>
+			</action>
+			<action die="3">
+				<results>
+					<result blueprint="1" />
+				</results>
+			</action>
+			<action die="4">
+				<results>
+					<result blueprint="1" />
+				</results>
+			</action>
+			<action die="5">
+				<results>
+					<result blueprint="1" />
+				</results>
+			</action>
+			<action die="6">
+				<results>
+					<result blueprint="1" />
+				</results>
+			</action>
+		</actions>
+	</karte>
+	<karte name="Research12">
+		<actions>
+			<action die="1">
+				<results>
+					<result blueprint="2" />
+				</results>
+			</action>
+			<action die="2">
+				<results>
+					<result blueprint="2" />
+				</results>
+			</action>
+			<action die="3">
+				<results>
+					<result blueprint="1" />
+				</results>
+			</action>
+			<action die="4">
+				<results>
+					<result blueprint="1" />
+				</results>
+			</action>
+			<action die="5">
+				<results>
+					<result blueprint="1" />
+				</results>
+			</action>
+			<action die="6">
+				<results>
+					<result blueprint="1" />
+				</results>
+			</action>
+		</actions>
+	</karte>
+	<karte name="Research13">
+		<actions>
+			<action die="1">
+				<results>
+					<result blueprint="2" />
+				</results>
+			</action>
+			<action die="2">
+				<results>
+					<result blueprint="1" />
+				</results>
+			</action>
+			<action die="3">
+				<results>
+					<result blueprint="2" />
+				</results>
+			</action>
+			<action die="4">
+				<results>
+					<result blueprint="1" />
+				</results>
+			</action>
+			<action die="5">
+				<results>
+					<result blueprint="1" />
+				</results>
+			</action>
+			<action die="6">
+				<results>
+					<result blueprint="1" />
+				</results>
+			</action>
+		</actions>
+	</karte>
+	<karte name="Research14">
+		<actions>
+			<action die="1">
+				<results>
+					<result blueprint="2" />
+				</results>
+			</action>
+			<action die="2">
+				<results>
+					<result blueprint="1" />
+				</results>
+			</action>
+			<action die="3">
+				<results>
+					<result blueprint="1" />
+				</results>
+			</action>
+			<action die="4">
+				<results>
+					<result blueprint="2" />
+				</results>
+			</action>
+			<action die="5">
+				<results>
+					<result blueprint="1" />
+				</results>
+			</action>
+			<action die="6">
+				<results>
+					<result blueprint="1" />
+				</results>
+			</action>
+		</actions>
+	</karte>
+	<karte name="Research15">
+		<actions>
+			<action die="1">
+				<results>
+					<result blueprint="2" />
+				</results>
+			</action>
+			<action die="2">
+				<results>
+					<result blueprint="1" />
+				</results>
+			</action>
+			<action die="3">
+				<results>
+					<result blueprint="1" />
+				</results>
+			</action>
+			<action die="4">
+				<results>
+					<result blueprint="1" />
+				</results>
+			</action>
+			<action die="5">
+				<results>
+					<result blueprint="2" />
+				</results>
+			</action>
+			<action die="6">
+				<results>
+					<result blueprint="1" />
+				</results>
+			</action>
+		</actions>
+	</karte>
+	<karte name="Research16">
+		<actions>
+			<action die="1">
+				<results>
+					<result blueprint="2" />
+				</results>
+			</action>
+			<action die="2">
+				<results>
+					<result blueprint="1" />
+				</results>
+			</action>
+			<action die="3">
+				<results>
+					<result blueprint="1" />
+				</results>
+			</action>
+			<action die="4">
+				<results>
+					<result blueprint="1" />
+				</results>
+			</action>
+			<action die="5">
+				<results>
+					<result blueprint="1" />
+				</results>
+			</action>
+			<action die="6">
+				<results>
+					<result blueprint="2" />
+				</results>
+			</action>
+		</actions>
+	</karte>
+	<karte name="Research22">
+		<actions>
+			<action die="1">
+				<results>
+					<result blueprint="1" />
+				</results>
+			</action>
+			<action die="2">
+				<results>
+					<result blueprint="2" />
+				</results>
+			</action>
+			<action die="3">
+				<results>
+					<result blueprint="1" />
+				</results>
+			</action>
+			<action die="4">
+				<results>
+					<result blueprint="1" />
+				</results>
+			</action>
+			<action die="5">
+				<results>
+					<result blueprint="1" />
+				</results>
+			</action>
+			<action die="6">
+				<results>
+					<result blueprint="1" />
+				</results>
+			</action>
+		</actions>
+	</karte>
+	<karte name="Research23">
+		<actions>
+			<action die="1">
+				<results>
+					<result blueprint="1" />
+				</results>
+			</action>
+			<action die="2">
+				<results>
+					<result blueprint="2" />
+				</results>
+			</action>
+			<action die="3">
+				<results>
+					<result blueprint="2" />
+				</results>
+			</action>
+			<action die="4">
+				<results>
+					<result blueprint="1" />
+				</results>
+			</action>
+			<action die="5">
+				<results>
+					<result blueprint="1" />
+				</results>
+			</action>
+			<action die="6">
+				<results>
+					<result blueprint="1" />
+				</results>
+			</action>
+		</actions>
+	</karte>
+	<karte name="Research24">
+		<actions>
+			<action die="1">
+				<results>
+					<result blueprint="1" />
+				</results>
+			</action>
+			<action die="2">
+				<results>
+					<result blueprint="2" />
+				</results>
+			</action>
+			<action die="3">
+				<results>
+					<result blueprint="1" />
+				</results>
+			</action>
+			<action die="4">
+				<results>
+					<result blueprint="2" />
+				</results>
+			</action>
+			<action die="5">
+				<results>
+					<result blueprint="1" />
+				</results>
+			</action>
+			<action die="6">
+				<results>
+					<result blueprint="1" />
+				</results>
+			</action>
+		</actions>
+	</karte>
+	<karte name="Research25">
+		<actions>
+			<action die="1">
+				<results>
+					<result blueprint="1" />
+				</results>
+			</action>
+			<action die="2">
+				<results>
+					<result blueprint="2" />
+				</results>
+			</action>
+			<action die="3">
+				<results>
+					<result blueprint="1" />
+				</results>
+			</action>
+			<action die="4">
+				<results>
+					<result blueprint="1" />
+				</results>
+			</action>
+			<action die="5">
+				<results>
+					<result blueprint="2" />
+				</results>
+			</action>
+			<action die="6">
+				<results>
+					<result blueprint="1" />
+				</results>
+			</action>
+		</actions>
+	</karte>
+	<karte name="Research26">
+		<actions>
+			<action die="1">
+				<results>
+					<result blueprint="1" />
+				</results>
+			</action>
+			<action die="2">
+				<results>
+					<result blueprint="2" />
+				</results>
+			</action>
+			<action die="3">
+				<results>
+					<result blueprint="1" />
+				</results>
+			</action>
+			<action die="4">
+				<results>
+					<result blueprint="1" />
+				</results>
+			</action>
+			<action die="5">
+				<results>
+					<result blueprint="1" />
+				</results>
+			</action>
+			<action die="6">
+				<results>
+					<result blueprint="2" />
+				</results>
+			</action>
+		</actions>
+	</karte>
+	<karte name="Research33">
+		<actions>
+			<action die="1">
+				<results>
+					<result blueprint="1" />
+				</results>
+			</action>
+			<action die="2">
+				<results>
+					<result blueprint="1" />
+				</results>
+			</action>
+			<action die="3">
+				<results>
+					<result blueprint="2" />
+				</results>
+			</action>
+			<action die="4">
+				<results>
+					<result blueprint="1" />
+				</results>
+			</action>
+			<action die="5">
+				<results>
+					<result blueprint="1" />
+				</results>
+			</action>
+			<action die="6">
+				<results>
+					<result blueprint="1" />
+				</results>
+			</action>
+		</actions>
+	</karte>
+	<karte name="Research34">
+		<actions>
+			<action die="1">
+				<results>
+					<result blueprint="1" />
+				</results>
+			</action>
+			<action die="2">
+				<results>
+					<result blueprint="1" />
+				</results>
+			</action>
+			<action die="3">
+				<results>
+					<result blueprint="2" />
+				</results>
+			</action>
+			<action die="4">
+				<results>
+					<result blueprint="2" />
+				</results>
+			</action>
+			<action die="5">
+				<results>
+					<result blueprint="1" />
+				</results>
+			</action>
+			<action die="6">
+				<results>
+					<result blueprint="1" />
+				</results>
+			</action>
+		</actions>
+	</karte>
+	<karte name="Research35">
+		<actions>
+			<action die="1">
+				<results>
+					<result blueprint="1" />
+				</results>
+			</action>
+			<action die="2">
+				<results>
+					<result blueprint="1" />
+				</results>
+			</action>
+			<action die="3">
+				<results>
+					<result blueprint="2" />
+				</results>
+			</action>
+			<action die="4">
+				<results>
+					<result blueprint="1" />
+				</results>
+			</action>
+			<action die="5">
+				<results>
+					<result blueprint="2" />
+				</results>
+			</action>
+			<action die="6">
+				<results>
+					<result blueprint="1" />
+				</results>
+			</action>
+		</actions>
+	</karte>
+	<karte name="Research36">
+		<actions>
+			<action die="1">
+				<results>
+					<result blueprint="1" />
+				</results>
+			</action>
+			<action die="2">
+				<results>
+					<result blueprint="1" />
+				</results>
+			</action>
+			<action die="3">
+				<results>
+					<result blueprint="2" />
+				</results>
+			</action>
+			<action die="4">
+				<results>
+					<result blueprint="1" />
+				</results>
+			</action>
+			<action die="5">
+				<results>
+					<result blueprint="1" />
+				</results>
+			</action>
+			<action die="6">
+				<results>
+					<result blueprint="2" />
+				</results>
+			</action>
+		</actions>
+	</karte>
+	<karte name="Research44">
+		<actions>
+			<action die="1">
+				<results>
+					<result blueprint="1" />
+				</results>
+			</action>
+			<action die="2">
+				<results>
+					<result blueprint="1" />
+				</results>
+			</action>
+			<action die="3">
+				<results>
+					<result blueprint="1" />
+				</results>
+			</action>
+			<action die="4">
+				<results>
+					<result blueprint="2" />
+				</results>
+			</action>
+			<action die="5">
+				<results>
+					<result blueprint="1" />
+				</results>
+			</action>
+			<action die="6">
+				<results>
+					<result blueprint="1" />
+				</results>
+			</action>
+		</actions>
+	</karte>
+	<karte name="Research45">
+		<actions>
+			<action die="1">
+				<results>
+					<result blueprint="1" />
+				</results>
+			</action>
+			<action die="2">
+				<results>
+					<result blueprint="1" />
+				</results>
+			</action>
+			<action die="3">
+				<results>
+					<result blueprint="1" />
+				</results>
+			</action>
+			<action die="4">
+				<results>
+					<result blueprint="2" />
+				</results>
+			</action>
+			<action die="5">
+				<results>
+					<result blueprint="2" />
+				</results>
+			</action>
+			<action die="6">
+				<results>
+					<result blueprint="1" />
+				</results>
+			</action>
+		</actions>
+	</karte>
+	<karte name="Research46">
+		<actions>
+			<action die="1">
+				<results>
+					<result blueprint="1" />
+				</results>
+			</action>
+			<action die="2">
+				<results>
+					<result blueprint="1" />
+				</results>
+			</action>
+			<action die="3">
+				<results>
+					<result blueprint="1" />
+				</results>
+			</action>
+			<action die="4">
+				<results>
+					<result blueprint="2" />
+				</results>
+			</action>
+			<action die="5">
+				<results>
+					<result blueprint="1" />
+				</results>
+			</action>
+			<action die="6">
+				<results>
+					<result blueprint="2" />
+				</results>
+			</action>
+		</actions>
+	</karte>
+	<karte name="Research55">
+		<actions>
+			<action die="1">
+				<results>
+					<result blueprint="1" />
+				</results>
+			</action>
+			<action die="2">
+				<results>
+					<result blueprint="1" />
+				</results>
+			</action>
+			<action die="3">
+				<results>
+					<result blueprint="1" />
+				</results>
+			</action>
+			<action die="4">
+				<results>
+					<result blueprint="1" />
+				</results>
+			</action>
+			<action die="5">
+				<results>
+					<result blueprint="2" />
+				</results>
+			</action>
+			<action die="6">
+				<results>
+					<result blueprint="1" />
+				</results>
+			</action>
+		</actions>
+	</karte>
+	<karte name="Research56">
+		<actions>
+			<action die="1">
+				<results>
+					<result blueprint="1" />
+				</results>
+			</action>
+			<action die="2">
+				<results>
+					<result blueprint="1" />
+				</results>
+			</action>
+			<action die="3">
+				<results>
+					<result blueprint="1" />
+				</results>
+			</action>
+			<action die="4">
+				<results>
+					<result blueprint="1" />
+				</results>
+			</action>
+			<action die="5">
+				<results>
+					<result blueprint="2" />
+				</results>
+			</action>
+			<action die="6">
+				<results>
+					<result blueprint="2" />
+				</results>
+			</action>
+		</actions>
+	</karte>
+	<karte name="Research66">
+		<actions>
+			<action die="1">
+				<results>
+					<result blueprint="1" />
+				</results>
+			</action>
+			<action die="2">
+				<results>
+					<result blueprint="1" />
+				</results>
+			</action>
+			<action die="3">
+				<results>
+					<result blueprint="1" />
+				</results>
+			</action>
+			<action die="4">
+				<results>
+					<result blueprint="1" />
+				</results>
+			</action>
+			<action die="5">
+				<results>
+					<result blueprint="1" />
+				</results>
+			</action>
+			<action die="6">
+				<results>
+					<result blueprint="2" />
+				</results>
+			</action>
+		</actions>
+	</karte>
+
+	<karte name="Gymnasium">
+		<actions>
+			<action energy="1" die="1">
+				<results>
+					<result die="2" />
+				</results>
+			</action>
+			<action energy="1" die="2">
+				<results>
+					<result die="3" />
+				</results>
+			</action>
+			<action energy="1" die="3">
+				<results>
+					<result die="4" />
+				</results>
+			</action>
+			<action energy="1" die="4">
+				<results>
+					<result die="5" />
+				</results>
+			</action>
+			<action energy="1" die="5">
+				<results>
+					<result die="6" />
+				</results>
+			</action>
+		</actions>
+	</karte>
+	
+	<karte name="Incinerator">
+		<actions>
+			<action blueprint="1" metal="1">
+				<results>
+					<result energy="6" />
+				</results>
+			</action>
+		</actions>
+	</karte>
+	<karte name="Laboratory">
+		<actions>
+			<action good="1">
+				<results>
+					<result blueprint="1" good="1" />
+				</results>
+			</action>
+		</actions>
+	</karte>
+	<karte name="Manufactory">
+		<actions>
+			<action die="1,1">
+				<results>
+					<result good="1" metal="2" />
+					<result good="1" engery="3" />
+					<result good="1" blueprint="2" />
+				</results>
+			</action>
+			<action die="2,2">
+				<results>
+					<result good="1" metal="2" />
+					<result good="1" engery="3" />
+					<result good="1" blueprint="2" />
+				</results>
+			</action>
+			<action die="3,3">
+				<results>
+					<result good="1" metal="2" />
+					<result good="1" engery="3" />
+					<result good="1" blueprint="2" />
+				</results>
+			</action>
+			<action die="4,4">
+				<results>
+					<result good="1" metal="2" />
+					<result good="1" engery="3" />
+					<result good="1" blueprint="2" />
+				</results>
+			</action>
+			<action die="5,5">
+				<results>
+					<result good="1" metal="2" />
+					<result good="1" engery="3" />
+					<result good="1" blueprint="2" />
+				</results>
+			</action>
+			<action die="6,6">
+				<results>
+					<result good="1" metal="2" />
+					<result good="1" engery="3" />
+					<result good="1" blueprint="2" />
+				</results>
+			</action>
+		</actions>
+	</karte>
+	<karte name="Recycling Plant">
+		<actions>
+			<action blueprint="2" energy="2">
+				<results>
+					<result good="1" blueprint="1" />
+				</results>
+			</action>
+		</actions>
+	</karte>
+	<karte name="Trash Compactor">
+		<actions>
+			<action die="1,1" blueprint="2">
+				<results>
+					<result good="2" />
+				</results>
+			</action>
+			<action die="2,2" blueprint="2">
+				<results>
+					<result good="2" />
+				</results>
+			</action>
+			<action die="3,3" blueprint="2">
+				<results>
+					<result good="2" />
+				</results>
+			</action>
+			<action die="4,4" blueprint="2">
+				<results>
+					<result good="2" />
+				</results>
+			</action>
+			<action die="5,5" blueprint="2">
+				<results>
+					<result good="2" />
+				</results>
+			</action>
+			<action die="6,6" blueprint="2">
+				<results>
+					<result good="2" />
+				</results>
+			</action>
+		</actions>
+	</karte>
+	
+	<karte name="Refinery">
+		<actions>
+			<action blueprint="1" energy="3">
+				<results>
+					<result metal="3" />
+				</results>
+			</action>
+		</actions>
+	</karte>
+
+	<karte name="Concrete Plant">
+		<actions>
+			<action die="1,1" metal="1">
+				<results>
+					<result good="2" />
+				</results>
+			</action>
+			<action die="2,2" metal="2">
+				<results>
+					<result good="2" />
+				</results>
+			</action>
+			<action die="3,3" metal="3">
+				<results>
+					<result good="2" />
+				</results>
+			</action>
+			<action die="4,4" metal="4">
+				<results>
+					<result good="2" />
+				</results>
+			</action>
+			<action die="5,5" metal="5">
+				<results>
+					<result good="2" />
+				</results>
+			</action>
+			<action die="6,6" metal="6">
+				<results>
+					<result good="2" />
+				</results>
+			</action>
+		</actions>
+	</karte>
+
+	<karte name="RobotX">
+		<actions>
+			<action metal="1">
+				<results>
+					<result die="1" />
+					<result die="2" />
+					<result die="3" />
+					<result die="4" />
+					<result die="5" />
+					<result die="6" />
+				</results>
+			</action>
+		</actions>
+	</karte>
+
+	<karte name="Robot">
+		<actions>
+			<action metal="1">
+				<results>
+					<result die="0" />
+				</results>
+			</action>
+		</actions>
+	</karte>
+	
+	<karte name="Battery Factory">
+		<actions>
+			<action energy="4">
+				<results>
+					<result good="1" />
+				</results>
+			</action>
+		</actions>
+	</karte>
+
+	<karte name="Foundry">
+		<actions>
+			<action die="1" energy="1">
+				<results>
+					<result metal="1" />
+				</results>
+			</action>
+			<action die="2" energy="2">
+				<results>
+					<result metal="2" />
+				</results>
+			</action>
+			<action die="3" energy="3">
+				<results>
+					<result metal="3" />
+				</results>
+			</action>
+			<action die="4" energy="4">
+				<results>
+					<result metal="4" />
+				</results>
+			</action>
+			<action die="5" energy="5">
+				<results>
+					<result metal="5" />
+				</results>
+			</action>
+			<action die="6" energy="6">
+				<results>
+					<result metal="6" />
+				</results>
+			</action>
+		</actions>
+	</karte>
+
+	<karte name="Fullfillment Center">
+		<actions>
+			<action die="4" energy="2">
+				<results>
+					<result good="1" metal="1" />
+				</results>
+			</action>
+		</actions>
+	</karte>
+
+	<karte name="Mega Factory">
+		<actions>
+			<action die="1,1,1">
+				<results>
+					<result good="2" die="1" />
+					<result good="2" die="2" />
+					<result good="2" die="3" />
+					<result good="2" die="4" />
+					<result good="2" die="5" />
+					<result good="2" die="6" />
+				</results>
+			</action>
+			<action die="2,2,2">
+				<results>
+					<result good="2" die="1" />
+					<result good="2" die="2" />
+					<result good="2" die="3" />
+					<result good="2" die="4" />
+					<result good="2" die="5" />
+					<result good="2" die="6" />
+				</results>
+			</action>
+			<action die="3,3,3">
+				<results>
+					<result good="2" die="1" />
+					<result good="2" die="2" />
+					<result good="2" die="3" />
+					<result good="2" die="4" />
+					<result good="2" die="5" />
+					<result good="2" die="6" />
+				</results>
+			</action>
+			<action die="4,4,4">
+				<results>
+					<result good="2" die="1" />
+					<result good="2" die="2" />
+					<result good="2" die="3" />
+					<result good="2" die="4" />
+					<result good="2" die="5" />
+					<result good="2" die="6" />
+				</results>
+			</action>
+			<action die="5,5,5">
+				<results>
+					<result good="2" die="1" />
+					<result good="2" die="2" />
+					<result good="2" die="3" />
+					<result good="2" die="4" />
+					<result good="2" die="5" />
+					<result good="2" die="6" />
+				</results>
+			</action>
+			<action die="6,6,6">
+				<results>
+					<result good="2" die="1" />
+					<result good="2" die="2" />
+					<result good="2" die="3" />
+					<result good="2" die="4" />
+					<result good="2" die="5" />
+					<result good="2" die="6" />
+				</results>
+			</action>
+		</actions>
+	</karte>
+
+	<karte name="Motherlode">
+		<actions>
+			<action die="1">
+				<results>
+					<result metal="1" />
+				</results>
+			</action>
+			<action die="2">
+				<results>
+					<result metal="1" />
+				</results>
+			</action>
+			<action die="3">
+				<results>
+					<result metal="1" />
+				</results>
+			</action>
+			<action die="4">
+				<results>
+					<result metal="2" />
+				</results>
+			</action>
+			<action die="5" >
+				<results>
+					<result metal="2" />
+				</results>
+			</action>
+			<action die="6" >
+				<results>
+					<result metal="2" />
+				</results>
+			</action>
+		</actions>
+	</karte>
+
+	<karte name="Cloning Facility">
+		<actions>
+			<action energy="2">
+				<results>
+					<result customFunction="CloningFacility" />
+				</results>
+			</action>
+		</actions>
+	</karte>
+
+	<karte name="Trade School">
+		<actions>
+			<action energy="1">
+				<results>
+					<result customFunction="TradeSchool" />
+				</results>
+			</action>
+		</actions>
+	</karte>
+
+	<karte name="Replicator">
+		<actions>
+			<action energy="1">
+				<results>
+					<result customFunction="Replicator" />
+				</results>
+			</action>
+		</actions>
+	</karte>
+
+	<karte name="University">
+		<actions>
+			<action energy="1" die="1">
+				<results>
+					<result die="2" />
+				</results>
+			</action>
+			<action energy="1" die="2">
+				<results>
+					<result die="1" />
+					<result die="3" />
+				</results>
+			</action>
+			<action energy="1" die="3">
+				<results>
+					<result die="2" />
+					<result die="4" />
+				</results>
+			</action>
+			<action energy="1" die="4">
+				<results>
+					<result die="3" />
+					<result die="5" />
+				</results>
+			</action>
+			<action energy="1" die="5">
+				<results>
+					<result die="4" />
+					<result die="6" />
+				</results>
+			</action>
+			<action energy="1" die="6">
+				<results>
+					<result die="5" />
+				</results>
+			</action>
+		</actions>
+	</karte>
+
+	<karte name="Harvester">
+		<actions>
+			<action die="1,1">
+				<results>
+					<result metal="4" />
+					<result energy="7" />
+				</results>
+			</action>
+			<action die="2,2">
+				<results>
+					<result metal="4" />
+					<result energy="7" />
+				</results>
+			</action>
+			<action die="3,3">
+				<results>
+					<result metal="4" />
+					<result energy="7" />
+				</results>
+			</action>
+			<action die="4,4">
+				<results>
+					<result metal="4" />
+					<result energy="7" />
+				</results>
+			</action>
+			<action die="5,5" >
+				<results>
+					<result metal="4" />
+					<result energy="7" />
+				</results>
+			</action>
+			<action die="6,6" >
+				<results>
+					<result metal="4" />
+					<result energy="7" />
+				</results>
+			</action>
+		</actions>
+	</karte>
+
+</karten>
